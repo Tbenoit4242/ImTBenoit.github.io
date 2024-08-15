@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink Recipes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="dodger-blue">
+    <h1>Drink Recipes</h1>
+    <form id="comment-form">
+        <label >Comment: </label>
+        <input type="text" id="comment" name="comment" placeholder="comment text">
+        <input type="submit" value="Add comment">
+      </form>
+      <ul id="comments">
+      </ul>
+    <div id="searchContainer">
+        <input type="text" id="searchInput" placeholder="Search for a drink...">
+        <button id="searchButton">Search</button>
+    </div>
+    <div id="drinkList"></div>
+    <div id="drinkDetail"></div>
+    <h2>Previously Viewed Drinks</h2>
+    <button id="clearHistoryButton">Clear History</button>
+    <div id="viewedHistory"></div>
+    <script src="index.js"></script>
+</body>
+</html>
